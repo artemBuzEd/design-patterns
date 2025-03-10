@@ -1,5 +1,5 @@
 public class An225Mriya {
-    private static An225Mriya plane = null;
+    private static volatile An225Mriya plane = null;
     private int fuel;
 
     private An225Mriya(){
