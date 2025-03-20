@@ -14,7 +14,6 @@ public class Main {
         System.out.println("\nReplaying some videos:");
         reel1.play();
 
-        // Add more to test cache limit
         Media reel4 = new ReelsProxy("Travel Vlog", "Dave");
         Media reel5 = new ReelsProxy("DIY Project", "Eve");
         Media reel6 = new ReelsProxy("Fitness Tips", "Frank");
@@ -23,7 +22,7 @@ public class Main {
         reel4.play();
         reel5.play();
         reel6.play();
-        
+
         System.out.println("\nReplay first video:");
         reel1.play();
     }
